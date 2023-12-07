@@ -27,7 +27,7 @@ squash branches testing
 ### Your default text editor will open with a list of the last two commits. It will look something like this:
     pick f7f3f6d Change my commit
     pick 310154e Another commit
-### To squash the commits, change the word pick to squash (or just s) at the beginning of the second commit (or the one you want to squash into the first). ### It should now look like this:
+### To squash the commits, change the word pick to squash (or just s) at the beginning of the second commit (or the one you want to squash into the first). It should now look like this:
     pick f7f3f6d Change my commit
     squash 310154e Another commit
 
